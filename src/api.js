@@ -2,7 +2,7 @@ export const getComments = async () => {
     return [
       {
         id: "1",
-        body: "First comment",
+        body: "What lang do you know",
         username: "Shashwath",
         userId: "1",
         parentId: null,
@@ -10,7 +10,7 @@ export const getComments = async () => {
       },
       {
         id: "2",
-        body: "Second comment",
+        body: "What frameworks do you know",
         username: "Shashwath",
         userId: "2",
         parentId: null,
@@ -18,7 +18,7 @@ export const getComments = async () => {
       },
       {
         id: "3",
-        body: "First comment first child",
+        body: "HTML CSS JS REACT",
         username: "Shashwath",
         userId: "2",
         parentId: "1",
@@ -26,7 +26,7 @@ export const getComments = async () => {
       },
       {
         id: "4",
-        body: "Second comment second child",
+        body: "REACT-REDUX BOOTSTRAP MATERIAL-UI",
         username: "Shashwath",
         userId: "2",
         parentId: "2",
